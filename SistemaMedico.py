@@ -300,8 +300,8 @@ class Receta:
 
 #inicio
 if __name__ == '__main__':  
-    doct = Doctor("Miguel",32,"M","Miguel-32@gmail.com","Milagro",58579,"Neurocirujano")
-    enfe = Enfermera("Maria",27,"F","Maria_L@gmail.com","Guayaquil",26438)
+    doct = Doctor("Miguel",32,"M","Miguel-32@gmail.com","Milagro",58579,"Neurocirujano") # <- El nombre y el id son para iniciar sesión
+    enfe = Enfermera("Maria",27,"F","Maria_L@gmail.com","Guayaquil",26438) # <- El nombre y el id son para iniciar sesión
     pantalla.limpiar()
     print("--DOCTOR--")
     doct.mostrarpersona()
@@ -312,8 +312,8 @@ if __name__ == '__main__':
     e = enfe.name()
     ei = enfe.Ide()
     
-    #iniciar secion
-    print("\n","Ingrese que tipo de usuario es: \n 1.- Doctor\n 2.- Enfermera")
+    #iniciar sesion
+    print("\n","Ingrese que tipo de usuario es: \n 1.- Doctor\n 2.- Enfermera") 
     op = int(input("Ingrese la opcion: "))
 
     while True:
